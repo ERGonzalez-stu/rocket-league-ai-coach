@@ -1,0 +1,21 @@
+# API Keys
+config.py
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# Data
+data/raw/*
+data/processed/*
+*.db
+
+# Jupyter
+.ipynb_checkpoints/
