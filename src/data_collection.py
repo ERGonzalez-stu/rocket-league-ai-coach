@@ -6,7 +6,11 @@ Fetches player-specific replay data from Ballchasing API
 import requests
 import time
 from typing import List, Dict, Optional
-from config import BALLCHASING_API_KEY
+try:
+    import streamlit as st
+    BALLCHASING_API_KEY = st.secrets["BALLCHASING_API_KEY"]
+except:
+    from config import BALLCHASING_API_KEY
 
 
 class BallchasingAPI:
