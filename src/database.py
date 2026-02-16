@@ -12,7 +12,6 @@ from datetime import datetime
 class RocketLeagueDB:
     """SQLite database for storing player match history"""
 
-    def __init__(self, db_path: str = "../data/rl_stats.db"):
         def __init__(self, db_path: str = "../data/rl_stats.db"):
             import os
 
