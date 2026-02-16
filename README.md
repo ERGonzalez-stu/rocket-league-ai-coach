@@ -23,7 +23,7 @@ AI-powered performance analytics for Rocket League players using real-time data 
 
 - **Frontend:** Streamlit
 - **Data Visualization:** Plotly
-- **AI/ML:** Groq API (Llama 3.1)
+- **AI/ML:** Groq API (Llama 3.3)
 - **Data Processing:** pandas, NumPy
 - **Database:** SQLite
 - **APIs:** Ballchasing.com, Groq
